@@ -2,6 +2,7 @@
 // window.confirm('Are you sure?');
 // window.prompt('Enter your name: ');
 
-birthyear = Number(prompt('Enter your Year of birth'));
-currentyear = Number(prompt('Enter the current year: '));
-confirm('Do you have ', currentyear - birthyear, ' years old?');
+let birthyear = Number(prompt('Enter your Year of birth'));
+let currentyear = Number(prompt('Enter the current year: '));
+const result = currentyear - birthyear;
+alert(`Do you have ${result}  years old? `);

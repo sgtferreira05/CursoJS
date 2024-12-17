@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercice thirteen </title>     
+    
+</head>
+<body>
+    <script>
+        const name = prompt('Enter your full name');
+        document.body.innerHTML = `Your full name is <strong>${name}</strong><br />`;
+        document.body.innerHTML += `Your name has <strong>${name.length}</strong>letters <br />`;
+        document.body.innerHTML += `The 2nd your name's letter is <strong>${name[1]}</strong><br />`;
+        document.body.innerHTML += `The index of the 1st occurrence of the letter 'A' in your name is<strong>${name.indexOf('a')}</strong><br />`;
+        document.body.innerHTML += `The last index of the letter 'A' in your name is <strong>${name.lastIndexOf('a')}</strong><br />`;
+        document.body.innerHTML += `The 3 last letters of your name are:  <strong>${name.slice(-3)}</strong><br />`;
+        document.body.innerHTML += `The words of your name are: <strong>${name.split(' ')}</strong><br />`;
+        document.body.innerHTML += `Your name in uppcase  <strong>${name.toUpperCase()}</strong><br />`;
+        document.body.innerHTML += `Your name in lowercase: <strong>${name.toLowerCase()}</strong><br />`;
+
+    </script>
+</body>
+</html>
+

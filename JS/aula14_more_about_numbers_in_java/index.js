@@ -1,4 +1,4 @@
-let num1 = 1.5;
+let num1 = 1.535;
 let num2 = 0.5;
 
 num1 += num2; // 2.0
@@ -9,6 +9,7 @@ num1 += num2; // 4.0
 num1 += num2; // 4.5
 num1 += num2; // 5.0
 num1 += num2; // 5.5
+
 
 
 
